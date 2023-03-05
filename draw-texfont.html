@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Texfont</title>
+        <style>
+            .fullwindow {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                margin: 0px;
+                border: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                display: block;
+            }
+        </style>
+    </head>
+    <body style="background-color: #000000;">
+        <script async src="./es-module-shims.js"></script>
+
+        <script type="importmap">
+          {
+            "imports": {
+              "three": "./three.module.js"
+            }
+          }
+        </script>
+        <script type="module" src="./draw-texfont.js"></script>
+    </body>
+</html>
